@@ -8,5 +8,5 @@ let inserireColore = prompt('Inserire il tuo colore preferito')
 document.getElementById("colore").innerHTML = inserireColore
 
 let password = inserireNome + inserireCognome + inserireColore + '#24'
-alert(password);
+alert('La tua password e`' + password);
 document.getElementById('password').innerHTML = password
